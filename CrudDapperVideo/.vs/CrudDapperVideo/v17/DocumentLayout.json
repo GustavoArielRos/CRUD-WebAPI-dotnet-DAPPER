@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5418A15F-54DE-4737-8ED8-D6AA59A8F2DF}|CrudDapperVideo\\CrudDapperVideo.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-webapi-dotnet-dapper\\cruddappervideo\\cruddappervideo\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5418A15F-54DE-4737-8ED8-D6AA59A8F2DF}|CrudDapperVideo\\CrudDapperVideo.csproj|solutionrelative:cruddappervideo\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5418A15F-54DE-4737-8ED8-D6AA59A8F2DF}|CrudDapperVideo\\CrudDapperVideo.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-webapi-dotnet-dapper\\cruddappervideo\\cruddappervideo\\services\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5418A15F-54DE-4737-8ED8-D6AA59A8F2DF}|CrudDapperVideo\\CrudDapperVideo.csproj|solutionrelative:cruddappervideo\\services\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5418A15F-54DE-4737-8ED8-D6AA59A8F2DF}|CrudDapperVideo\\CrudDapperVideo.csproj|c:\\users\\guga_pc\\desktop\\projetos-git\\crud-webapi-dotnet-dapper\\cruddappervideo\\cruddappervideo\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5418A15F-54DE-4737-8ED8-D6AA59A8F2DF}|CrudDapperVideo\\CrudDapperVideo.csproj|solutionrelative:cruddappervideo\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IUsuarioInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\CrudDapperVideo\\Services\\IUsuarioInterface.cs",
+              "RelativeDocumentMoniker": "CrudDapperVideo\\Services\\IUsuarioInterface.cs",
+              "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\CrudDapperVideo\\Services\\IUsuarioInterface.cs",
+              "RelativeToolTip": "CrudDapperVideo\\Services\\IUsuarioInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T23:37:58.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\CrudDapperVideo\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "CrudDapperVideo\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\CrudDapperVideo\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "CrudDapperVideo\\Services\\UsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T23:35:21.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\CrudDapperVideo\\Program.cs",
               "RelativeDocumentMoniker": "CrudDapperVideo\\Program.cs",
               "ToolTip": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\CrudDapperVideo\\Program.cs",
               "RelativeToolTip": "CrudDapperVideo\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T03:03:45.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Guga_Pc\\Desktop\\projetos-git\\CRUD-WebAPI-dotnet-DAPPER\\CrudDapperVideo\\CrudDapperVideo\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "CrudDapperVideo\\Controllers\\UsuarioController.cs",

@@ -38,3 +38,4 @@ C:\Users\Guga_Pc\Desktop\projetos-git\CRUD-WebAPI-dotnet-DAPPER\CrudDapperVideo\
 C:\Users\Guga_Pc\Desktop\projetos-git\CRUD-WebAPI-dotnet-DAPPER\CrudDapperVideo\CrudDapperVideo\obj\Debug\net8.0\CrudDapperVideo.pdb
 C:\Users\Guga_Pc\Desktop\projetos-git\CRUD-WebAPI-dotnet-DAPPER\CrudDapperVideo\CrudDapperVideo\obj\Debug\net8.0\CrudDapperVideo.genruntimeconfig.cache
 C:\Users\Guga_Pc\Desktop\projetos-git\CRUD-WebAPI-dotnet-DAPPER\CrudDapperVideo\CrudDapperVideo\obj\Debug\net8.0\ref\CrudDapperVideo.dll
+C:\Users\Guga_Pc\Desktop\projetos-git\CRUD-WebAPI-dotnet-DAPPER\CrudDapperVideo\CrudDapperVideo\obj\Debug\net8.0\CrudDapperVideo.sourcelink.json
