@@ -16,15 +16,6 @@ builder.Services.AddScoped<IUsuarioInterface, UsuarioService>();
 //com isso colocamos o serviço do AutoMapper na aplicação
 builder.Services.AddAutoMapper(typeof(Program));
 
-//mexendo no CORS
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("usuariosApp", builder =>
-    {
-        //construção da politica
-        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
-    });
-});
 
 
 var app = builder.Build();
@@ -36,8 +27,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//mexendo no CORS
-app.UseCors("usuariosApp");
+
 
 app.UseHttpsRedirection();
 

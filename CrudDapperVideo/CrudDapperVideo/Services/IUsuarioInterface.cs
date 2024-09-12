@@ -8,7 +8,7 @@ namespace CrudDapperVideo.Services
 
         Task<ResponseModel<List<UsuarioListarDto>>> BuscarUsuarios();
 
-        Task<ResponseModel<Usuario>> BuscarUsuarioPorId(int usuarioId);
+        Task<ResponseModel<UsuarioListarDto>> BuscarUsuarioPorId(int usuarioId);
 
         Task<ResponseModel<List<UsuarioListarDto>>> CriarUsuario(UsuarioCriarDto usuarioCriarDto);
 

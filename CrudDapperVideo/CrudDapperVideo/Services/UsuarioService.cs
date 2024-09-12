@@ -18,15 +18,15 @@ namespace CrudDapperVideo.Services
             _mapper = mapper;
         }
 
-        public async Task<ResponseModel<Usuario>> BuscarUsuarioPorId(int usuarioId)
+        public async Task<ResponseModel<UsuarioListarDto>> BuscarUsuarioPorId(int usuarioId)
         {
-            ResponseModel<Usuario> response = new ResponseModel<Usuario>();
+            ResponseModel<UsuarioListarDto> response = new ResponseModel<UsuarioListarDto>();
 
             using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
             {
                 //new {Id = usuarioId}, é para falar que esse id com @ é o do recebido no parâmetro
                 //QueryFirstOrDefaultAsync caso não tenha o usuario com id ele retorna um null
-                var usuarioBanco = await connection.QueryFirstOrDefaultAsync<Usuario>("select * from Usuarios where id = @Id", new {Id = usuarioId});
+                var usuarioBanco = await connection.QueryFirstOrDefaultAsync<UsuarioListarDto>("select * from Usuarios where id = @Id", new {Id = usuarioId});
 
                 if(usuarioBanco == null)
                 {
@@ -35,9 +35,9 @@ namespace CrudDapperVideo.Services
                     return response;
                 }
 
-                //var usuarioMapeado = _mapper.Map<UsuarioListarDto>(usuarioBanco);
+                var usuarioMapeado = _mapper.Map<UsuarioListarDto>(usuarioBanco);
 
-                response.Dados = usuarioBanco;
+                response.Dados = usuarioMapeado;
                 response.Mensagem = "Usuário localizado com sucesso";
 
             }
